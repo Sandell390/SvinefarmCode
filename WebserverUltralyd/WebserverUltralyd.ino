@@ -131,12 +131,12 @@ void StateCheck(){
 }
 
 void Measure(){
-  /*
+  
   for (int i = 0; i < SONAR_NUM; i++) {
     measuredValues[i] = CalculatePrecent(i,GetDistance(i));
     delay(PING_INTERVAL);
-  }*/
-
+  }
+  /*
   for (uint8_t i = 0; i < SONAR_NUM; i++) { // Loop through all the sensors.
     if (millis() >= pingTimer[i]) {         // Is it this sensor's time to ping?
       pingTimer[i] += PING_INTERVAL * SONAR_NUM;  // Set next time this sensor will be pinged.
@@ -147,7 +147,7 @@ void Measure(){
       sonars[currentSensor].ping_timer(echoCheck); // Do the ping (processing continues, interrupt will call echoCheck to look for echo).
     }
   }
-
+  */
 }
 
 void echoCheck() { // If ping received, set the sensor distance to array.
