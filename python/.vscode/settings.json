@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/Lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/Lib"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023175142321",
+    "project_id": "svinefarm-5823e",
+    "storage_bucket": "svinefarm-5823e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023175142321:android:7a9f7087d94c43ad80eb90",
+        "android_client_info": {
+          "package_name": "com.example.svine_farm_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBApPt1a8XcOOYIVatxvO3KMWb4ofg0FjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
